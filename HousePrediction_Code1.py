@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
-# Load the dataset (assuming you have a CSV file named 'house_data.csv')
+# Load the dataset 
 data = pd.read_csv('HousePrediction.csv')
 
 # Assume 'price' is our target variable, and 'size', 'bedrooms', 'bathrooms' are features
